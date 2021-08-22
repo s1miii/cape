@@ -47,7 +47,7 @@ else:
 # -- Class --
 class Reverse_Ip:
    def __init__(self):
-      self.url = 'https://reverse-ip.whoisxmlapi.com/api/v1?apiKey=at_Q6mBGRwNHPk2iqUxkfK4JNmm0PdIu&ip='
+      self.url = 'https://api.hackertarget.com/reverseiplookup/?q='
       self.banner()
       self.save = 'result.txt'
    def reverse(self, domain):
