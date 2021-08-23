@@ -47,7 +47,7 @@ else:
 # -- Class --
 class Reverse_Ip:
    def __init__(self):
-      self.url = 'https://api.hackertarget.com/reverseiplookup/?q='
+      self.url = 'https://api.viewdns.info/reverseip/?host="+ip+"&apikey=e0cbb9dd32ea828d23759ffbc735f2c5f4541655'
       self.banner()
       self.save = 'result.txt'
    def reverse(self, domain):
