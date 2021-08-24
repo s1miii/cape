@@ -146,7 +146,7 @@ Class ReverseIP
             curl_setopt($ch, CURLOPT_ENCODING, 'gzip, deflate');
             
             $headers   = array();
-            $headers[] = 'Authority: sonar.omnisint.io';
+            $headers[] = 'Authority: omnisint.io';
             $headers[] = 'Cache-Control: max-age=0';
             $headers[] = 'Connection: keep-alive';
             $headers[] = 'Sec-Ch-Ua: \"Chromium\";v=\"88\", \"Google Chrome\";v=\"88\", \";Not A Brand\";v=\"99\"';
